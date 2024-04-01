@@ -6,12 +6,31 @@ public class Hotal {
     String Location;
     String desc;
     Float ratting;
-    Hotal(String s1,String s2,String s3,String s4,Float s5)
+    Hotal(String name,String phone,String location,String desc,Float ratting)
     {
-        this.name = s1;
-        this.Phone = s2;
-        this.desc=s4;
-        this.Location= s3;
-        this.ratting = s5;
+        this.name = name;
+        this.Phone = phone;
+        this.desc=desc;
+        this.Location= location;
+        this.ratting = ratting;
+    }
+    public String getName() {
+        return this.name;
+    }
+
+    public Float getRatting() {
+        return ratting;
+    }
+
+    public String getDesc() {
+        return desc;
+    }
+
+    public String getLocation() {
+        return Location;
+    }
+
+    public String getPhone() {
+        return Phone;
     }
 }

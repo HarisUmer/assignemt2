@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
+<RelativeLayout
 
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_height="match_parent"
@@ -7,11 +7,20 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
 
     >
-
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add"
+        android:drawableEnd="@drawable/add"
+        android:textColor="@color/black"
+        android:id="@+id/Add"
+        android:background="@color/cardview_dark_background"
+        ></Button>
     <androidx.recyclerview.widget.RecyclerView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:id="@+id/Rec"
+        android:layout_below="@id/Add"
     />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>

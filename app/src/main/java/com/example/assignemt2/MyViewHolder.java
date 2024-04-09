@@ -19,12 +19,5 @@ public class MyViewHolder extends RecyclerView.ViewHolder {
         t2 = itemView.findViewById(R.id.t2);
         t3 = itemView.findViewById(R.id.t3);
         t4 = itemView.findViewById(R.id.t4);
-        b1 = itemView.findViewById(R.id.Add);
-        b1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
-            }
-        });
     }
 }

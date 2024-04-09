@@ -13,14 +13,14 @@
         android:text="Add"
         android:drawableEnd="@drawable/add"
         android:textColor="@color/black"
-        android:id="@+id/Add"
+        android:id="@+id/Add4"
         android:background="@color/cardview_dark_background"
         ></Button>
     <androidx.recyclerview.widget.RecyclerView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:id="@+id/Rec"
-        android:layout_below="@id/Add"
+        android:layout_below="@id/Add4"
     />
 
 </RelativeLayout>

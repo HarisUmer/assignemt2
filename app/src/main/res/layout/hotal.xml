@@ -23,6 +23,7 @@
     android:layout_weight="1"
     android:layout_height="match_parent"
     android:text="3.8"
+    android:gravity="center"
     android:textSize="40dp"
     android:id="@+id/rating"
     ></TextView>
